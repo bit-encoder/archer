@@ -13,10 +13,6 @@ header {
     text-align: center;
 }
 
-header img {
-    /* float: left; */
-}
-
 nav {
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
@@ -63,9 +59,18 @@ section {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
     color: #FFFFFF;
-    background-color: #03A3DF;
     margin-bottom: 0;
     padding-left: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.class-blue {
+    background-color: #03A3DF;
+}
+
+.lesson-gold {
+    background-color: #ECB722;
 }
 
 .article-title {
@@ -79,10 +84,32 @@ article, article h3{
     margin-top: 0;
 }
 
-article{
+article {
     padding: 25px;
 }
 
 article p {
     font-size: 20px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 30% 30% 40%;
+    grid-template-rows: auto;
+
+    background-image: url("../assets/footerImage.jpg");
+    height: 150px;
+    color: #FFFFFF;
+
+    margin-top: 60px;
+}
+
+footer img {
+    
+}
+
+footer ul {
+    list-style-type: none;
+    margin-top: auto;
+    margin-bottom: auto;
 }
