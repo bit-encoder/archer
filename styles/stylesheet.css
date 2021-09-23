@@ -2,6 +2,28 @@ body {
     margin: 0;
 }
 
-header {
+#header-nav-combo {
+    display: grid;
     background-color: #03A3DF;
+    grid-template-columns: 30% 70%;
+}
+
+header {
+    text-align: center;
+}
+
+header img {
+    /* float: left; */
+}
+
+nav {
+    
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
 }
