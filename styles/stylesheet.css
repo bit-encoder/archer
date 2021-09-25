@@ -13,6 +13,9 @@ header {
     text-align: center;
 }
 
+/*
+    NAV styling section
+*/
 nav {
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
@@ -36,6 +39,9 @@ nav li a {
     color: #FFFFFF;
 }
 
+/*
+    MAIN styling section
+*/
 main {
     display: flex;
     flex-direction: column;
@@ -48,11 +54,8 @@ main h2 {
     text-align: center;
 }
 
-section {
+.service-entry {
     width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    /* justify-content: center; -- just won't work */
 }
 
 .section-title {
@@ -92,8 +95,6 @@ article h3{
     color: #444444;
     background-color: none;
     width: 50%;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 article {
@@ -103,11 +104,24 @@ article {
 article p {
     font-size: 20px;
 }
-
+/*
+    AGNOSTIC styling section
+    added because there were so many repetiions of
+    just centering. Decided to have dedicated classes
+    to center and other one-offs.
+*/
 .center-me {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.darken-me {
+    color: #444444;
+}
+
+.text-align-center {
+    text-align: center;
 }
 
 hr {
@@ -116,6 +130,9 @@ hr {
     height: 5px;
 }
 
+/*
+    FOOTER styling section
+*/
 footer {
     display: grid;
     grid-template-columns: 30% 30% 40%;
