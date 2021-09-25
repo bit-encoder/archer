@@ -102,7 +102,7 @@ article h3{
 
 .article-content {
     color: #444444;
-    background-color: none;
+    background-color: transparent;
     width: 50%;
 }
 
