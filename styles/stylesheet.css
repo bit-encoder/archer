@@ -53,7 +53,9 @@ nav li a {
 */
 main {
     display: flex;
-    flex-direction: column;
+    
+    flex-flow: column wrap;
+    align-content: center;
 }
 
 main h2 {
@@ -65,6 +67,7 @@ main h2 {
 
 .service-entry {
     width: 600px;
+    justify-content: center;
 }
 
 .section-title {
@@ -113,17 +116,19 @@ article {
 article p {
     font-size: 20px;
 }
+
+.instructor-bio {
+    display: flex;
+
+    flex-flow: column wrap;
+    align-items: center;
+}
 /*
     AGNOSTIC styling section
     added because there were so many repetiions of
     just centering. Decided to have dedicated classes
     to center and other one-offs.
 */
-.center-me {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 .darken-me {
     color: #444444;
