@@ -86,6 +86,7 @@ main h2 {
 
 .lesson-gold {
     background-color: #ECB722;
+    color: #444444;
 }
 
 .article-title {
@@ -114,7 +115,7 @@ article {
 }
 
 article p {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .instructor-bio {
